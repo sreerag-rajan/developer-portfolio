@@ -36,7 +36,7 @@ function Navbar() {
             cursor: 'pointer',
             transform: 'translateY(-10px)',
             transition: 'color 0.3s',
-            // position: "Sticky",
+            // position: "sticky",
             // top:"10px",
             '&:hover': {
                 color: theme.primary,

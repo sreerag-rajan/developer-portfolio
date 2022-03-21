@@ -1,7 +1,7 @@
 export const socialsData = {
     github: 'https://github.com/sreerag-rajan',
     facebook: '',
-    linkedIn: 'www.linkedin.com/in/sreerag-rajan-55383a222',
+    linkedIn: 'https://www.linkedin.com/in/sreerag-rajan-55383a222',
     instagram: '',
     codepen: '',
     twitter: '',
