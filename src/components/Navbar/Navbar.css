@@ -16,7 +16,11 @@
     width: 100%;
     padding: 0 3rem;
     margin-top: 1rem;
+    /* position: fixed; */
+    /* top: 10px; */
+    
 }
+
 
 .navbar--container > h1 {
     font-family: 'BestermindRegular';

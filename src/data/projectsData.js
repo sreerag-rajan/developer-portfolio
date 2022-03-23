@@ -21,7 +21,7 @@ export const projectsData = [
     {
         id: 2,
         projectName: 'Sportsjam.in Clone',
-        projectDesc: 'This is a clone of an e-commerce website sportsjam.in. My contribution to this project was the product catalog page and its features, like sorting and filtering. The rest of the project was built by various members of the group',
+        projectDesc: 'This is a clone of an e-commerce website sportsjam.in. My contribution to this project was the product catalogue page and its features, like sorting and filtering. The rest of the project was built by various members of the group',
         tags: ['HTML', 'CSS','Javascript'],
         code: 'https://github.com/sreerag-rajan/sportsjam-clone',
         demo: 'https://practical-meninsky-36f305.netlify.app/',
@@ -30,7 +30,7 @@ export const projectsData = [
     {
         id: 3,
         projectName: 'Reliance Digital Clone - Backend Integration',
-        projectDesc: 'This is the clone of reliancedigital.in. Features I worked on the Product Catalog pages and also on some minor parts on other pages as well',
+        projectDesc: 'This is the clone of reliancedigital.in. Features I worked on the Product Catalogue pages and also on some minor parts on other pages as well',
         tags: ['EJS', 'Express', 'MongoDB', 'Node.js'],
         code: 'https://github.com/sreerag-rajan/Reliance-Digital-Clone-U4-',
         demo: 'https://reliance-digital-clone.herokuapp.com/',
