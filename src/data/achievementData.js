@@ -25,14 +25,6 @@ export const achievementData = {
             field : 'Machine Learning',
             image : 'https://udemy-certificate.s3.amazonaws.com/image/UC-d9a7ba99-8635-47e6-96fc-7dd26a3dcbf1.jpg?v=1618297236000'
         },
-        {
-            id : 3,
-            title : 'R Programming A-Z: R For Data Science With Real Exercises!',
-            details : 'R Programming Language Course from Udemy',
-            date : 'Feb 28, 2021',
-            field : 'Data Science',
-            image : 'https://udemy-certificate.s3.amazonaws.com/image/UC-8f5ff8e8-b6a4-4efd-a3fc-7fb63b29e77f.jpg?v=1614489452000'
-        }
 
     ]
 }

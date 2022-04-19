@@ -1,9 +1,10 @@
-import resume from '../assets/pdf/resume.pdf'
+import resume from '../assets/pdf/Moises-resume-2022.docx'
+import Me from '../assets/img/me.jpg'
 
 export const headerData = {
-    name: 'Sreerag Rajan',
+    name: 'Moises De Leon',
     title: "Web Developer",
-    desciption:"Life may be a meandering path but don't worry about it, rather enjoy it. It is about the journey, not the destination so explore all that comes your way, learn and grow from it, for this journey only happens once.",
-    image: 'https://avatars.githubusercontent.com/u/85482640?v=4',
+    desciption:"Strong professional and creative software developer that can pick up new languages and systems quickly and can adapt to changing situations as needed. Previously, I was a Psychology major working directly with patients with psychological disabilities to help them gain independence throughout their daily lives. Now i look to use the interpersonal and technical skills that i've acquired over the years to create reactive applications",
+    image: Me,
     resumePdf: resume
 }
