@@ -1,29 +1,33 @@
+import JavascriptCertificate from '../assets/img/javascript-certificate.jpeg'
+import HTMLCertificate from '../assets/img/html-certificate.jpeg'
+import CSSCertficate from '../assets/img/css-certificate.jpeg'
+
 export const achievementData = {
     bio : "The illiterate of the 21st century will not be those who cannot read and write, but those who cannot learn, unlearn, and relearn. - Alvin Toffler",
     achievements : [
         {
             id : 1,
-            title : '2021 Complete Python Bootcamp From Zero to Hero in Python',
-            details : 'A python course from Udemy',
-            date : 'Jan 28, 2021',
+            title : 'Learn the JavaScript fundamentals you will need for front-end or back-end development.',
+            details : 'A Javascript course from Codecademy',
+            date : 'Dec 2, 2021',
             field : 'Coding',
-            image : 'https://udemy-certificate.s3.amazonaws.com/image/UC-0cd075aa-f55b-4d9f-aec0-119020a4e792.jpg?v=1611846350000'
+            image : JavascriptCertificate
         },
         {
             id : 2,
-            title : 'The Ultimate MySQL Bootcamp: Go from SQL Beginner to Expert',
-            details : 'A MySQL course from Udemy',
-            date : 'May 25, 2021',
-            field : 'Database',
-            image : 'https://udemy-certificate.s3.amazonaws.com/image/UC-91ae3ea2-39ee-4a57-bf23-d397aff0d9a7.jpg?v=1621951317000'
+            title : 'Learn how to style and visually organize HTML with CSS.',
+            details : 'A CSS course from Codecademy',
+            date : 'Nov 15, 2021',
+            field : 'Styling',
+            image : CSSCertficate
         },
         {
             id : 3,
-            title : 'Machine Learning A-Z: Hands-On Python & R in Data Science',
-            details : 'Data Science Course from Udemy',
-            date : 'Apr 13, 2021',
-            field : 'Machine Learning',
-            image : 'https://udemy-certificate.s3.amazonaws.com/image/UC-d9a7ba99-8635-47e6-96fc-7dd26a3dcbf1.jpg?v=1618297236000'
+            title : 'Learn the basics of HTML5 and start building & editing web pages.',
+            details : 'An HTML Course from Codecademy',
+            date : 'Nov 12, 2021',
+            field : 'Programming',
+            image : HTMLCertificate
         },
 
     ]
