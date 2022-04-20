@@ -8,17 +8,17 @@ import {
     FaTwitter,
     FaLinkedinIn,
     FaGithub,
-    FaYoutube,
-    FaBloggerB,
-    FaRedditAlien,
-    FaStackOverflow,
-    FaCodepen,
-    FaInstagram,
-    FaGitlab,
-    FaMediumM,
+    // FaYoutube,
+    // FaBloggerB,
+    // FaRedditAlien,
+    // FaStackOverflow,
+    // FaCodepen,
+    // FaInstagram,
+    // FaGitlab,
+    // FaMediumM,
 } from 'react-icons/fa';
 import { AiOutlineSend, AiOutlineCheckCircle } from 'react-icons/ai';
-import { FiPhone, FiAtSign } from 'react-icons/fi';
+import { FiAtSign } from 'react-icons/fi';
 import { HiOutlineLocationMarker } from 'react-icons/hi';
 
 import { ThemeContext } from '../../contexts/ThemeContext';
@@ -298,7 +298,7 @@ function Contacts() {
 
                     <div className='contacts-details'>
                         <a
-                            // href={`mailto:${contactsData.email}`}
+                            href={`mailto:${contactsData.email}`}
                             className='personal-details'
                         >
                             <div className={classes.detailsIcon}>
