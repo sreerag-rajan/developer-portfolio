@@ -1,7 +1,7 @@
-import React, { useContext, useState } from 'react';
+import React, { useContext, useState, useRef } from 'react';
 import { Snackbar, IconButton, SnackbarContent } from '@material-ui/core';
 import CloseIcon from '@material-ui/icons/Close';
-import axios from 'axios';
+// import axios from 'axios';
 import isEmail from 'validator/lib/isEmail';
 import { makeStyles } from '@material-ui/core/styles';
 import {
@@ -25,9 +25,11 @@ import { ThemeContext } from '../../contexts/ThemeContext';
 
 import { socialsData } from '../../data/socialsData';
 import { contactsData } from '../../data/contactsData';
+import emailjs from '@emailjs/browser';
 import './Contacts.css';
 
 function Contacts() {
+    const form = useRef();
     const [open, setOpen] = useState(false);
 
     const [name, setName] = useState('');
@@ -134,13 +136,25 @@ function Contacts() {
 
         if (name && email && message) {
             if (isEmail(email)) {
-                const responseData = {
-                    name: name,
-                    email: email,
-                    message: message,
-                };
+                // const responseData = {
+                //     name: name,
+                //     email: email,
+                //     message: message,
+                // };
 
-                axios.post(contactsData.sheetAPI, responseData).then((res) => {
+                // axios.post(contactsData.sheetAPI, responseData).then((res) => {
+                //     console.log('success');
+                //     setSuccess(true);
+                //     setErrMsg('');
+
+                //     setName('');
+                //     setEmail('');
+                //     setMessage('');
+                //     setOpen(false);
+                // });
+
+                emailjs.sendForm('service_5dz7svq', 'template_3nhtxby', form.current, 'j4hchXG9634FlMNAm')
+                .then((result) => {
                     console.log('success');
                     setSuccess(true);
                     setErrMsg('');
@@ -149,6 +163,8 @@ function Contacts() {
                     setEmail('');
                     setMessage('');
                     setOpen(false);
+                }, (error) => {
+                    console.log(error.text);
                 });
             } else {
                 setErrMsg('Invalid email');
@@ -169,14 +185,14 @@ function Contacts() {
             <div className='contacts--container'>
                 <h1 style={{ color: theme.primary }}>Lets Chat!</h1>
                 <div className='contacts-body'>
-                    {/* <div className='contacts-form'>
-                        <form onSubmit={handleContactForm}>
+                    <div className='contacts-form'>
+                        <form ref={form} onSubmit={handleContactForm}>
                             <div className='input-container'>
                                 <label htmlFor='Name' className={classes.label}>
                                     Name
                                 </label>
                                 <input
-                                    placeholder='John Doe'
+                                    placeholder='Luke Skywalker'
                                     value={name}
                                     onChange={(e) => setName(e.target.value)}
                                     type='text'
@@ -192,7 +208,7 @@ function Contacts() {
                                     Email
                                 </label>
                                 <input
-                                    placeholder='John@doe.com'
+                                    placeholder='Luke123@rebels.com'
                                     value={email}
                                     onChange={(e) => setEmail(e.target.value)}
                                     type='email'
@@ -278,7 +294,7 @@ function Contacts() {
                                 message={errMsg}
                             />
                         </Snackbar>
-                    </div> */}
+                    </div>
 
                     <div className='contacts-details'>
                         <a
@@ -313,7 +329,7 @@ function Contacts() {
                         </div>
 
                         <div className='socialmedia-icons'>
-                            {/* {socialsData.twitter && (
+                            {socialsData.twitter && (
                                 <a
                                     href={socialsData.twitter}
                                     target='_blank'
@@ -322,7 +338,7 @@ function Contacts() {
                                 >
                                     <FaTwitter aria-label='Twitter' />
                                 </a>
-                            )} */}
+                            )}
                             {socialsData.github && (
                                 <a
                                     href={socialsData.github}
@@ -353,7 +369,7 @@ function Contacts() {
                                     <FaInstagram aria-label='Instagram' />
                                 </a>
                             )}*/}
-                            {socialsData.medium && (
+                            {/* {socialsData.medium && (
                                 <a
                                     href={socialsData.medium}
                                     target='_blank'
@@ -362,7 +378,7 @@ function Contacts() {
                                 >
                                     <FaMediumM aria-label='Medium' />
                                 </a>
-                            )}
+                            )} */}
                             {/*
                             {socialsData.blogger && (
                                 <a
