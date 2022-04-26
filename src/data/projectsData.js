@@ -26,7 +26,7 @@ export const projectsData = [
         projectDesc: 'Search by artist or songs and get a list of all the available songs with their respective lyrics. Each song will be contained within their own cards, and the user can press on the dropdown button to show the lyrics',
         tags: ['HTML', 'CSS', "JavaScript"],
         code: 'https://github.com/ares4444/front-end-project',
-        demo: 'https://remarkable-boba-5f5f8d.netlify.app',
+        demo: 'https://musical-crafts.netlify.app',
         image: FrontEnd
     },
     // {
