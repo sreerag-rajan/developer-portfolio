@@ -29,15 +29,15 @@ export const projectsData = [
         demo: 'https://educative-clone.vercel.app/',
         image: FrontEnd
     },
-    {
-        id: 4,
-        projectName: 'Dragon Ball Memory Game',
-        projectDesc: 'Click on cards to reveal the image and find all the pairs of the DB characters. Each attempt will be counted. Compete with yourself or others to see who can clear the game in the least moves',
-        tags: ['React',],
-        code: 'https://github.com/ares4444/memory-game',
-        demo: 'https://reliance-digital-clone.herokuapp.com/',
-        image: "https://miro.medium.com/max/875/1*qRNfRbuHCDC1ct0chLZoWA.png"
-    },
+    // {
+    //     id: 4,
+    //     projectName: 'Dragon Ball Memory Game',
+    //     projectDesc: 'Click on cards to reveal the image and find all the pairs of the DB characters. Each attempt will be counted. Compete with yourself or others to see who can clear the game in the least moves',
+    //     tags: ['React',],
+    //     code: 'https://github.com/ares4444/memory-game',
+    //     demo: 'https://reliance-digital-clone.herokuapp.com/',
+    //     image: "https://miro.medium.com/max/875/1*qRNfRbuHCDC1ct0chLZoWA.png"
+    // },
     
 ]
 
