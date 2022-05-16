@@ -8,6 +8,7 @@
 // import eight from '../assets/svg/projects/eight.svg'
 import FrontEnd from '../assets/img/front-end-app.jpeg'
 import BackEnd from '../assets/img/back-end-app.jpeg'
+import React from '../assets/img/react-project.jpeg'
 
 
 export const projectsData = [
@@ -17,7 +18,7 @@ export const projectsData = [
         projectDesc: 'Users are able to login/register their own profiles. Once logged in the user can create lists (i.e. Groceries, Chores, Items), once created the lists gets added to the users profile and saved into the Mongo database. From there they can update their lists (add/delete items in the lists). Every edit will update the database that is registered to that user.',
         tags: ['Mongoose', 'EJS','Javascript', 'Node.js'],
         code: 'https://github.com/ares4444/BackendGiterdun',
-        demo: 'https://practical-meninsky-36f305.netlify.app/',
+        demo: 'Demo not available. Please visit the github link for code',
         image: BackEnd
     },
     {
@@ -29,15 +30,15 @@ export const projectsData = [
         demo: 'https://musical-crafts.netlify.app',
         image: FrontEnd
     },
-    // {
-    //     id: 4,
-    //     projectName: 'Dragon Ball Memory Game',
-    //     projectDesc: 'Click on cards to reveal the image and find all the pairs of the DB characters. Each attempt will be counted. Compete with yourself or others to see who can clear the game in the least moves',
-    //     tags: ['React',],
-    //     code: 'https://github.com/ares4444/memory-game',
-    //     demo: 'https://reliance-digital-clone.herokuapp.com/',
-    //     image: "https://miro.medium.com/max/875/1*qRNfRbuHCDC1ct0chLZoWA.png"
-    // },
+    {
+        id: 4,
+        projectName: 'Photo Gallery App',
+        projectDesc: 'Pexels API clone application. Search for images by either typing a word or phrase. Some features such as: User register/login, save or download favorite images into profile, and upload personal images will be coming in a later update. Please stay tuned...',
+        tags: ['React, MUI',],
+        code: 'https://github.com/ares4444/pexels-clone-app',
+        demo: 'https://pics-gallery-app.netlify.app',
+        image: React
+    },
     
 ]
 
