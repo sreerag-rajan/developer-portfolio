@@ -1,4 +1,4 @@
-import resume from '../../assets/pdf/Moises-Resume-2022-Copy.pdf';
+import resume from '../assets/pdf/Moises-Resume-2022-Copy.pdf';
 import Me from '../assets/img/me.jpg'
 
 export const headerData = {
