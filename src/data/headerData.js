@@ -1,5 +1,5 @@
-import resume from '../assets/pdf/Moises-resume2022.pdf';
-import Me from '../assets/img/me.jpg'
+import resume from '../assets/';
+import Me from '../assets/pdf/Moises-Resume-2022-Copy.pdf';
 
 export const headerData = {
     name: 'Moises De Leon',

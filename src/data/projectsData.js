@@ -32,7 +32,7 @@ export const projectsData = [
     },
     {
         id: 4,
-        projectName: 'Photo Gallery App',
+        projectName: 'Pics Gallery App',
         projectDesc: 'Pexels API clone application. Search for images by either typing a word or phrase. Some features such as: User register/login, save or download favorite images into profile, and upload personal images will be coming in a later update. Please stay tuned...',
         tags: ['React, MUI',],
         code: 'https://github.com/ares4444/pexels-clone-app',
