@@ -7,7 +7,10 @@
     'MongoDB',
     'MySQL',
     'PostgreSQL',
-    'Node Js',
+    'Node JS',
+    'Microsoft Office',
+    'MaterialUI',
+
 ]
 
 // Choose your skills from below. Make sure it's in the same format and spelled correctly.

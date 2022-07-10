@@ -9,9 +9,19 @@
 import FrontEnd from '../assets/img/front-end-app.jpeg'
 import BackEnd from '../assets/img/back-end-app.jpeg'
 import React from '../assets/img/react-project.jpeg'
-
+import Capstone from '../assets/img/video1191467841.mp4'
+import YapYap from '../assets/img/yapyapchat.jpeg'
 
 export const projectsData = [
+    {
+        id: 1,
+        projectName: 'YApYapChat',
+        projectDesc: 'Through the use of Socket.io and WebRTC my team and I created a simple to use messaging and video chatting application; in which users can register and begin to instantly message with their friends, family, or colleagues.',
+        tags: ['React', 'CSS','Javascript', 'JSX', 'Socket.io', 'WebRTC', 'MongoDB'],
+        code: 'https://github.com/Pranotisavadi/yapyapchat',
+        demo: 'https://yapyapchat.herokuapp.com/',
+        image: YapYap
+    },
     {
         id: 2,
         projectName: 'GitErDone',
