@@ -16,7 +16,7 @@ export const projectsData = [
     {
         id: 1,
         projectName: 'YApYapChat',
-        projectDesc: 'Through the use of Socket.io and WebRTC my team and I created a simple to use messaging and video chatting application; in which users can register and begin to instantly message with their friends, family, or colleagues.',
+        projectDesc: 'Through the use of Socket.io and WebRTC my team and I created a simple to use messaging and video chatting application. At the moment some features are not available such as: following other users. We do ask that you stay tuned for future updates. We encourage new users to try out one of the pre-registered accounts: (Usr:Simba pw:simba123) or (Usr:Mufasa pw:mufasa123)',
         tags: ['React', 'CSS','Javascript', 'JSX', 'Socket.io', 'WebRTC', 'MongoDB'],
         code: 'https://github.com/Pranotisavadi/yapyapchat',
         demo: 'https://yapyapchat.herokuapp.com/',
