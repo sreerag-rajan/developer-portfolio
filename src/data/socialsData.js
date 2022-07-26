@@ -1,14 +1,15 @@
 export const socialsData = {
-    github: 'https://github.com/sreerag-rajan',
-    facebook: '',
-    linkedIn: 'https://www.linkedin.com/in/sreerag-rajan-55383a222',
-    instagram: '',
-    codepen: '',
-    twitter: '',
-    reddit: '',
-    blogger: '',
-    medium: 'https://medium.com/@sreerag.rajan5',
-    stackOverflow: '',
-    gitlab: '',
-    youtube: ''
-}
+  github: "https://github.com/chuksdozie",
+  facebook: "",
+  linkedIn: "https://www.linkedin.com/in/chiedozie-chukwu-9ab85513a/",
+  tiktok: "https://www.tiktok.com/@iamchuksdozie?lang=en",
+  instagram: "",
+  codepen: "",
+  twitter: "",
+  reddit: "",
+  blogger: "",
+  medium: "",
+  stackOverflow: "",
+  gitlab: "",
+  youtube: "",
+};
