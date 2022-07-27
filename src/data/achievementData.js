@@ -31,7 +31,7 @@ export const achievementData = {
     {
       id: 4,
       title: "Web Applications Development",
-      details: "HNGi8 - ZURI - I4G Internship",
+      details: "HNGi8 - ZURI - I4G",
       date: "October 25, 2021",
       field: "React Tailwind Styled-Components",
       image: "",
