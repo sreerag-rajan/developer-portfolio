@@ -10,24 +10,25 @@ import eight from "../assets/svg/projects/eight.svg";
 export const projectsData = [
   {
     id: 1,
-    projectName: "Profiler - Server",
+    projectName: "Student Management App",
     projectDesc:
-      "This project is an employee management application, in full functionality organizations have the ability to create an account, create unit and departments and manage employees under the organization account.",
-    tags: ["Node Js", "Express", "PostgreSQL"],
-    code: "https://github.com/chuksdozie/profiler",
-    demo: "https://profiler-backend-devchuks.herokuapp.com/",
+      "This Web App keeps helps managing students become easy, easy retrive a students details like courses taken, parent details, courses location etc.",
+    tags: ["Next Js", "Node Js", "Mongo DB"],
+    code: "",
+    demo: "",
     image: "",
+    star: true,
   },
-  {
-    id: 2,
-    projectName: "Profiler - Client",
-    projectDesc:
-      "This project is an employee management application, in full functionality organizations have the ability to create an account, create unit and departments and manage employees under the organization account.",
-    tags: ["React Js", "React - Redux", "Material UI"],
-    code: "https://github.com/chuksdozie/profiler-frontend",
-    demo: "https://profiler-frontend-5cbsb49vf-chuksdozie.vercel.app/",
-    image: "",
-  },
+  // {
+  //   id: 2,
+  //   projectName: "Profiler - Client",
+  //   projectDesc:
+  //     "This project is an employee management application, in full functionality organizations have the ability to create an account, create unit and departments and manage employees under the organization account.",
+  //   tags: ["React Js", "React - Redux", "Material UI"],
+  //   code: "https://github.com/chuksdozie/profiler-frontend",
+  //   demo: "https://profiler-frontend-5cbsb49vf-chuksdozie.vercel.app/",
+  //   image: "",
+  // },
   // {
   //     id: 3,
   //     projectName: 'Educative Clone',
