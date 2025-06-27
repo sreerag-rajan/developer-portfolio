@@ -11,11 +11,11 @@ import eight from '../assets/svg/projects/eight.svg'
 export const projectsData = [
     {
         id: 1,
-        projectName: 'History Through Movies',
-        projectDesc: 'This project seeks to explore whether the pedagogy of history can be improved with the visual media, particularly Cinema. The Website is intended to show movies that fit the bill. I have a fullstack role in this having built all of it.',
-        tags: ['Django', 'HTML' ,'CSS', 'Javascript'],
+        projectName: 'Gym-O',
+        projectDesc: 'This is a web application that allows gym-goers to effectively track their workouts and progress. It is a fullstack application that uses MongoDB for the backend and HTML, CSS, and Javascript for the frontend.',
+        tags: ['MongoDB', 'HTML' ,'CSS', 'Javascript', 'React', 'NodeJS', 'Express'],
         code: 'https://github.com/sreerag-rajan/historythroughmovies',
-        demo: 'https://historythroughmovies.pythonanywhere.com/',
+        demo: '',
         image: "https://github.com/sreerag-rajan/historythroughmovies/raw/master/htclandingpage.png"
     },
     {

@@ -1,10 +1,10 @@
 export const experienceData = [
     {
         id: 1,
-        company: 'Globex Corporation',
-        jobtitle: 'Frontend Developer',
-        startYear: '2018',
-        endYear: '2019'
+        company: 'Park',
+        jobtitle: 'Full-Stack Software Development Intern',
+        startYear: '2024',
+        endYear: '2024'
     },
     
 ]

@@ -1,9 +1,10 @@
 import resume from '../assets/pdf/resume.pdf'
+import ivan_profile from '../assets/png/ivan_profile.png'
 
 export const headerData = {
-    name: 'Sreerag Rajan',
-    title: "Web Developer",
-    desciption:"Life may be a meandering path but don't worry about it, rather enjoy it. It is about the journey, not the destination so explore all that comes your way, learn and grow from it, for this journey only happens once.",
-    image: 'https://avatars.githubusercontent.com/u/85482640?v=4',
+    name: 'Ivan Nghi',
+    title: "Software Developer",
+    desciption:"Not everything needs a map. I follow what challenges me, what teaches me, and what moves me forward. Each project, each line of code, is part of that path. This is where I’ve been—and where I’m heading next.",
+    image: ivan_profile,
     resumePdf: resume
 }

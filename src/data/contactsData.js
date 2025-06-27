@@ -1,7 +1,7 @@
 export const contactsData = {
-    email: 'sreerag.rajan5@gmail.com',
-    phone: '+91 9663437669',
-    address: '412 Ground Floor, Indraprastha Colony, Sector 30-33, Faridabad, Haryana, 121003',
+    email: 'ivanknee@gmail.com',
+    phone: '+1 (714) 417-5891',
+    address: 'Garden Grove, CA',
 
     sheetAPI: ''
 }
